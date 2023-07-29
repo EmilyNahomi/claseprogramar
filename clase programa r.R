@@ -10,6 +10,8 @@ install.packages("skimr")
 install.packages("janitor")
 install.packages("palmerpenguins")
 ## cargar librerias 
+library(ggplot2); library(dplyr); library(gapminder); library(viridis); library(ggthemes);
+library(datos); library(skimr); library(janitor); library(palmerpenguins)
 ## para saber en que directorio estoy trabajando
 getwd()
 setwd("c:\\cursoR")
